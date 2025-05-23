@@ -17,8 +17,9 @@ stored.
 5. Map the IP address with its MAC address and return the MAC address to client.
 P
 ## PROGRAM - ARP
-```
+
 CLIENT:
+```
 import socket
 
 c = socket.socket()
@@ -78,8 +79,9 @@ SERVER:
 ![Screenshot 2025-03-17 113834](https://github.com/user-attachments/assets/a19c30ff-e89f-4d86-8aad-2b99d09b592a)
 
 ## PROGRAM - RARP
-```
+
 CLIENT:
+```
 import socket
 
 c = socket.socket()
